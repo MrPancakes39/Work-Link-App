@@ -22,25 +22,25 @@ body {
 }
 
 #logo {
-    width: 80%;
+    width: 70%;
     height: 30%;
     margin: 0 auto;
     text-align: center;
 }
 
-#logo h2 {
+.wl-text {
     color: #D97B3D;
     font-weight: bold;
 }
 
-.work-link-button {
+.wl-button {
     color: #D97B3D;
     background-color: #354E66;
     border-color: #354E66;
 }
 
-.work-link-button:hover,
-.work-link-button:focus {
+.wl-button:hover,
+.wl-button:focus {
     color: #D97B3D;
     background-color: #273440;
     border-color: #273440;
