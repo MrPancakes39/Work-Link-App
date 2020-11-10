@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-.center {
+.center-middle {
     left: 50%;
     top: 50%;
     position: absolute;
@@ -21,9 +21,7 @@ body {
     transform: translate3d(-50%, -50%, 0);
 }
 
-#logo {
-    width: 70%;
-    height: 30%;
+.center {
     margin: 0 auto;
     text-align: center;
 }
@@ -44,4 +42,12 @@ body {
     color: #D97B3D;
     background-color: #273440;
     border-color: #273440;
+}
+
+#v-align {
+    width: 70%;
+}
+
+#v-align button {
+    font-size: 1em;
 }
