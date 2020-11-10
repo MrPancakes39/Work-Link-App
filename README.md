@@ -14,6 +14,6 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
 ## To Do List
 - [x] Splashscreen Page.
 - [x] Home Page.
-- [ ] About Us Page.
+- [x] About Us Page.
 - [ ] No Connection PAge.
 - [ ] WebViewer Page.
