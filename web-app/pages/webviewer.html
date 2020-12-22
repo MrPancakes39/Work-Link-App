@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <title>WebViewer</title>
+    <meta name="author" content="Salman Hasan">
+    <meta name="description" content="WebViewer Page">
+
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <iframe id="WebViewer" src="../../../interview-tips.html" class="u-max-full-width" width="100%" height="100%"
+        style="border:none;"></iframe>
+    <script>
+        let options = [
+            "https://work-link.herokuapp.com",
+            "../",
+            "https://www.tutorialspoint.com/business_writing_skills/cv_writing.htm",
+            "https://business.tutsplus.com/tutorials/how-to-write-a-cover-letter-the-ultimate-guide--cms-25929"
+        ];
+        document.querySelector("#WebViewer").setAttribute("src", options[3]);
+    </script>
+</body>
+
+</html>

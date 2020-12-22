@@ -15,5 +15,5 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
 - [x] Splashscreen Page.
 - [x] Home Page.
 - [x] About Us Page.
-- [x] No Connection PAge.
-- [ ] WebViewer Page.
+- [x] No Connection Page.
+- [x] WebViewer Page.
