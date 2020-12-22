@@ -16,4 +16,7 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
 - [x] Home Page.
 - [x] About Us Page.
 - [x] No Connection Page.
-- [x] WebViewer Page.
+- [x] ~~WebViewer Page.~~
+- [ ] Interview Tips Page.
+- [ ] CV Tutorials Page.
+- [ ] Cover Letter Page.
