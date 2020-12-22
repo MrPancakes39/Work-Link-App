@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html class="ms-fontsize-medium textSpacingOff c001 ms-theme-sepia" dir="auto" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interview Tips</title>
+    <meta name="author" content="Salman Hasan">
+    <meta name="description" content="Interview Tips Page">
+
+    <style id="content_document_common_stylesheet">
+        :root {
+            --sepia-color: #F9F5E9;
+            --sepia_default-link-color: #0072C9;
+            --sepia_active-link-color: #097DD5;
+            --light-color: #FCFCFC;
+            --light_default-link-color: #0075CF;
+            --light_active-link-color: #0D7FD6;
+            --light-yellow-color: #eceb8b;
+            --light-yellow_default-link-color: #0069B9;
+            --light-yellow_active-link-color: #0075CF;
+            --lime-color: #b8d686;
+            --lime_default-link-color: #005699;
+            --lime_active-link-color: #0063AE;
+            --light-green-color: #a5da90;
+            --light-green_default-link-color: #005699;
+            --light-green_active-link-color: #0063AE;
+            --light-teal-color: #94e2be;
+            --light-teal_default-link-color: #005CA3;
+            --light-teal_active-link-color: #0069B9;
+            --turquoise-color: #89e1dd;
+            --turquoise_default-link-color: #005CA3;
+            --turquoise_active-link-color: #0069B9;
+            --teal-color: #8ed5de;
+            --teal_default-link-color: #005699;
+            --teal_active-link-color: #0063AE;
+            --sky-blue-color: #a3cfe4;
+            --sky-blue_default-link-color: #005699;
+            --sky-blue_active-link-color: #0063AE;
+            --light-blue-color: #b3caec;
+            --light-blue_default-link-color: #005699;
+            --light-blue_active-link-color: #0063AE;
+            --lavender-color: #d1bfeb;
+            --lavender_default-link-color: #005393;
+            --lavender_active-link-color: #0060A9;
+            --orchid-color: #edb5f3;
+            --orchid_default-link-color: #005393;
+            --orchid_active-link-color: #0060A9;
+            --grey-color: #E6E6E6;
+            --grey_default-link-color: #0069B9;
+            --grey_active-link-color: #0075CF;
+            --pink-color: #f6b6d9;
+            --pink_default-link-color: #005699;
+            --pink_active-link-color: #0063AE;
+            --carnation-color: #fdacc3;
+            --carnation_default-link-color: #00508E;
+            --carnation_active-link-color: #005CA3;
+            --dark-color: #000000;
+            --dark_default-link-color: #0078D4;
+            --dark_active-link-color: #006CBE;
+            --green-color: #91ffa6;
+            --green_default-link-color: #0069B9;
+            --green_active-link-color: #0075CF;
+            --blue-color: #87faff;
+            --blue_default-link-color: #0069B9;
+            --blue_active-link-color: #0075CF;
+            --yellow-color: #feff5c;
+            --yellow_default-link-color: #0072C9;
+            --yellow_active-link-color: #097DD5;
+            --rose-color: #febaba;
+            --rose_default-link-color: #005699;
+            --rose_active-link-color: #0063AE;
+            --apricot-color: #f1bfa9;
+            --apricot_default-link-color: #005699;
+            --apricot_active-link-color: #0063AE;
+            --light-orange-color: #f0d592;
+            --light-orange_default-link-color: #0060A9;
+            --light-orange_active-link-color: #006CBE;
+        }
+
+        .ms-fontsize-extraextrasmall {
+            font-size: 82%;
+        }
+
+        .ms-fontsize-extrasmall {
+            font-size: 91%;
+        }
+
+        .ms-fontsize-small {
+            font-size: 100%;
+        }
+
+        .ms-fontsize-medium {
+            font-size: 114%;
+        }
+
+        .ms-fontsize-large {
+            font-size: 136%;
+        }
+
+        .ms-fontsize-extralarge {
+            font-size: 182%;
+        }
+
+        .ms-fontsize-extraextralarge {
+            font-size: 341%;
+        }
+
+        .ms-theme-sepia body {
+            background: var(--sepia-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-sepia .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-sepia a {
+            color: var(--sepia_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-sepia a:visited {
+            color: var(--sepia_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-sepia a:hover {
+            color: var(--sepia_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-sepia a:active {
+            color: var(--sepia_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-light body {
+            background: var(--light-color, #FCFCFC);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-light .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-light a {
+            color: var(--light_default-link-color, #0075CF) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-light a:visited {
+            color: var(--light_default-link-color, #0075CF) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-light a:hover {
+            color: var(--light_default-link-color, #0075CF) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-light a:active {
+            color: var(--light_active-link-color, #0D7FD6) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-grey body {
+            background: var(--grey-color, #E6E6E6);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-grey .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-grey a {
+            color: var(--grey_default-link-color, #0069B9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-grey a:visited {
+            color: var(--grey_default-link-color, #0069B9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-grey a:hover {
+            color: var(--grey_default-link-color, #0069B9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-grey a:active {
+            color: var(--grey_active-link-color, #0075CF) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-dark body {
+            background: var(--dark-color, #000000);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-dark .contentBody {
+            color: #EDEDED !important;
+        }
+
+        .ms-theme-dark a {
+            color: var(--dark_default-link-color, #0078D4) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-dark a:visited {
+            color: var(--dark_default-link-color, #0078D4) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-dark a:hover {
+            color: var(--dark_default-link-color, #0078D4) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-dark a:active {
+            color: var(--dark-active-link-color, #006CBE) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-dark .progress_pages_pending {
+            color: #FFFFFF !important;
+        }
+
+        .ms-theme-dark #source {
+            text-decoration: none !important;
+        }
+
+        .ms-theme-dark #source:hover {
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-dark blockquote {
+            color: #F7630C !important;
+        }
+
+        .ms-theme-green body {
+            background: var(--green-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-green .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-green a {
+            color: var(--green_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-green a:visited {
+            color: var(--green_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-green a:hover {
+            color: var(--green_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-green a:active {
+            color: var(--green_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-blue body {
+            background: var(--blue-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-blue .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-blue a {
+            color: var(--blue_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-blue a:visited {
+            color: var(--blue_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-blue a:hover {
+            color: var(--blue_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-blue a:active {
+            color: var(--blue_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-yellow body {
+            background: var(--yellow-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-yellow .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-yellow a {
+            color: var(--yellow_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-yellow a:visited {
+            color: var(--yellow_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-yellow a:hover {
+            color: var(--yellow_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-yellow a:active {
+            color: var(--yellow_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-rose body {
+            background: var(--rose-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-rose .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-rose a {
+            color: var(--rose_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-rose a:visited {
+            color: var(--rose_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-rose a:hover {
+            color: var(--rose_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-rose a:active {
+            color: var(--rose_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-apricot body {
+            background: var(--apricot-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-apricot .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-apricot a {
+            color: var(--apricot_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-apricot a:visited {
+            color: var(--apricot_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-apricot a:hover {
+            color: var(--apricot_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-apricot a:active {
+            color: var(--apricot_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightorange body {
+            background: var(--light-orange-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-lightorange .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-lightorange a {
+            color: var(--light-orange_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightorange a:visited {
+            color: var(--light-orange_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightorange a:hover {
+            color: var(--light-orange_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightorange a:active {
+            color: var(--light-orange_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightyellow body {
+            background: var(--light-yellow-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-lightyellow .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-lightyellow a {
+            color: var(--light-yellow_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightyellow a:visited {
+            color: var(--light-yellow_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightyellow a:hover {
+            color: var(--light-yellow_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightyellow a:active {
+            color: var(--light-yellow_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lime body {
+            background: var(--lime-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-lime .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-lime a {
+            color: var(--lime_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lime a:visited {
+            color: var(--lime_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lime a:hover {
+            color: var(--lime_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lime a:active {
+            color: var(--lime_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightgreen body {
+            background: var(--light-green-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-lightgreen .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-lightgreen a {
+            color: var(--light-green_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightgreen a:visited {
+            color: var(--light-green_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightgreen a:hover {
+            color: var(--light-green_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightgreen a:active {
+            color: var(--light-green_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightteal body {
+            background: var(--light-teal-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-lightteal .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-lightteal a {
+            color: var(--light-teal_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightteal a:visited {
+            color: var(--light-teal_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightteal a:hover {
+            color: var(--light-teal_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightteal a:active {
+            color: var(--light-teal_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-turquoise body {
+            background: var(--turquoise-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-turquoise .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-turquoise a {
+            color: var(--turquoise_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-turquoise a:visited {
+            color: var(--turquoise_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-turquoise a:hover {
+            color: var(--turquoise_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-turquoise a:active {
+            color: var(--turquoise_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-teal body {
+            background: var(--teal-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-teal .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-teal a {
+            color: var(--teal_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-teal a:visited {
+            color: var(--teal_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-teal a:hover {
+            color: var(--teal_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-teal a:active {
+            color: var(--teal_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-skyblue body {
+            background: var(--sky-blue-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-skyblue .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-skyblue a {
+            color: var(--sky-blue_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-skyblue a:visited {
+            color: var(--sky-blue_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-skyblue a:hover {
+            color: var(--sky-blue_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-skyblue a:active {
+            color: var(--sky-blue_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightblue body {
+            background: var(--light-blue-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-lightblue .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-lightblue a {
+            color: var(--light-blue_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightblue a:visited {
+            color: var(--light-blue_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lightblue a:hover {
+            color: var(--light-blue_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lightblue a:active {
+            color: var(--light-blue_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lavender body {
+            background: var(--lavender-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-lavender .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-lavender a {
+            color: var(--lavender_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lavender a:visited {
+            color: var(--lavender_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-lavender a:hover {
+            color: var(--lavender_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-lavender a:active {
+            color: var(--lavender_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-orchid body {
+            background: var(--orchid-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-orchid .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-orchid a {
+            color: var(--orchid_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-orchid a:visited {
+            color: var(--orchid_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-orchid a:hover {
+            color: var(--orchid_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-orchid a:active {
+            color: var(--orchid_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-pink body {
+            background: var(--pink-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-pink .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-pink a {
+            color: var(--pink_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-pink a:visited {
+            color: var(--pink_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-pink a:hover {
+            color: var(--pink_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-pink a:active {
+            color: var(--pink_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-carnation body {
+            background: var(--carnation-color, #F9F5E9);
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .ms-theme-carnation .contentBody {
+            color: #333333 !important;
+        }
+
+        .ms-theme-carnation a {
+            color: var(--carnation_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-carnation a:visited {
+            color: var(--carnation_default-link-color, #0072C9) !important;
+            text-decoration: none !important;
+        }
+
+        .ms-theme-carnation a:hover {
+            color: var(--carnation_default-link-color, #0072C9) !important;
+            text-decoration: underline !important;
+        }
+
+        .ms-theme-carnation a:active {
+            color: var(--carnation_active-link-color, #097DD5) !important;
+            text-decoration: underline !important;
+        }
+
+        .c001 {
+            font-family: 'Sitka Text', Georgia, Cambria, Calibri;
+        }
+    </style>
+    <style id="content_document_stylesheet">
+        html {
+            margin: 0 !important;
+            height: 100%;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            position: relative;
+            line-height: 160%;
+            transition-property: background, color;
+            transition-duration: .8s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .__reading__mode__mainbody {
+            margin: 0;
+            padding: 0;
+        }
+
+        .__reading__mode__extracted__article__body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header_container {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+
+        .contentBody {
+            width: auto;
+            color: #333333;
+            padding: 2.444rem;
+            max-width: 33rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .progress_pages_pending {
+            color: #000002;
+            margin-left: calc(50% - 10px);
+            margin-right: auto;
+        }
+
+        .__reading__mode__bylineentries {
+            margin: 0 0 36px 0;
+            font-size: .66rem;
+        }
+
+        .__reading__mode__extracted__bylineentry {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            line-height: 160%;
+        }
+
+        #metaDivider {
+            top: -1px;
+            color: #333;
+            position: relative;
+            font-size: 0.8rem;
+        }
+
+        #source a {
+            text-decoration: none;
+        }
+
+        body * {
+            margin-block-end: 0;
+            margin-inline-end: 0;
+            margin-block-start: 0;
+            margin-inline-start: 0;
+        }
+
+        #mainContainer p:first_child {
+            padding: 0;
+        }
+
+        #mainContainer p {
+            padding: 0;
+            hyphens: manual;
+            line-height: 160%;
+        }
+
+        blockquote {
+            margin: 1.3rem 0;
+            padding: 0 2rem 0 1.3rem;
+            text-align: justify;
+        }
+
+        ol {
+            margin: 1rem 2rem 1.3rem 0;
+        }
+
+        ul {
+            margin: 1rem 2rem 1.3rem 0;
+        }
+
+        #copyright {
+            font-size: 0.8rem;
+            margin-top: 2rem;
+            font-family: 'Sitka Small', Georgia, Cambria, Calibri;
+        }
+
+        #__reading__mode__sendfeedback {
+            font-size: 0.8rem;
+            margin-top: 2rem;
+        }
+
+        h1 {
+            margin: 2.444rem 0 0;
+            padding: 0;
+            font-size: 2.333rem;
+            font-family: 'Sitka Banner', Georgia, Cambria, Calibri;
+            font-weight: normal;
+            line-height: 160%;
+        }
+
+        h2 {
+            margin: 2rem 0 0;
+            padding: 0;
+            font-size: 1.777rem;
+            font-family: 'Sitka Heading', Georgia, Cambria, Calibri;
+            font-weight: normal;
+            line-height: 160%;
+        }
+
+        h3 {
+            margin: 0.667rem 0 1.111rem;
+            padding: 0;
+            font-size: 1.333rem;
+            font-family: 'Sitka Subheading', Georgia, Cambria, Calibri;
+            font-weight: normal;
+            line-height: 160%;
+        }
+
+        h4 {
+            margin: .8rem 0 .8rem 0;
+            padding: 0;
+            font-size: 1rem;
+            font-style: italic;
+            font-family: 'Sitka Text', Georgia, Cambria, Calibri;
+            font-weight: normal;
+            line-height: 160%;
+        }
+
+        h5 {
+            margin: .8rem 0 0 0;
+            padding: 0;
+            font-size: 0.667rem;
+            font-family: 'Sitka Small', Georgia, Cambria, Calibri;
+            font-weight: bold;
+        }
+
+        h6 {
+            margin: .8rem 0 0 0;
+            padding: 0;
+            font-size: 0.667rem;
+            font-style: italic;
+            font-family: 'Sitka Small', Georgia, Cambria, Calibri;
+            font-weight: normal;
+        }
+
+        #mainContentTitle {
+            margin-top: 0;
+            font-family: 'segoe UI semibold';
+            margin-bottom: 0.3rem;
+        }
+
+        #mainContentTitle,
+        #subtitle:lang(en) {
+            line-height: 1.2;
+        }
+
+        #subtitle {
+            margin: 0 0 .4rem 0;
+            line-height: 1.2rem;
+        }
+
+        #content_end_mark_icon_id {
+            display: none;
+        }
+
+        #content_end_mark_icon_id:before {
+            content: "\25FC";
+            font-size: 1rem;
+            font-style: normal;
+            font-family: Segoe MDL2 Assets;
+        }
+
+        figure {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: #0072C9;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #0072C9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0072C9;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #097DD5;
+            text-decoration: underline;
+        }
+
+        #author {
+            color: #666666;
+        }
+
+        .c002 {
+            opacity: 0;
+            transform: translateY(80px);
+        }
+
+        .c003 {
+            margin-top: 41px;
+        }
+
+        .c004 {
+            transition-property: opacity, transform;
+            transition-duration: .5s;
+            transition-timing-function: cubic-bezier(0.25, 0.10, 0.25, 1.00);
+        }
+
+        .c005 {
+            display: block;
+            min-width: 100px;
+            font-size: 0.667rem;
+            margin-top: 0.45rem;
+            font-style: italic;
+            text-align: left;
+            line-height: 160%;
+            font-family: 'Sitka Small', Georgia;
+            break-before: avoid-column;
+        }
+
+        .c006 {
+            height: auto;
+            display: block;
+            max-width: 100%;
+            max-height: 50%;
+            break-inside: avoid-column;
+            margin-bottom: 20px;
+        }
+
+        .c007 {
+            display: none;
+        }
+
+        .c008 {
+            display: block ! important;
+        }
+
+        /* @media screen and (max-width: 42rem) {
+            .c009 {
+                screen and (max-width: 42rem);
+            }
+
+            .c0010 {
+                width: auto;
+                padding: 0.667rem;
+            }
+
+            .c0011 {
+                font-size: 1.667rem;
+                font-family: 'Sitka Heading', Georgia, Cambria, Calibri;
+            }
+
+            .c0012 {
+                font-size: 1.333rem;
+                font-family: 'Sitka Subheading', Georgia, Cambria, Calibri;
+            }
+        } */
+
+        /* @media screen and (max-width: 801px) {
+            .c009 {
+                screen and (max-width: 801px);
+            }
+
+            .c0013 {
+                background: #faf7ee;
+            }
+        } */
+    </style>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/skeleton.css">
+
+    <style>
+        #contentContainer {
+            margin: 0px auto;
+        }
+
+        h1#mainContentTitle {
+            font-size: 4rem;
+            font-family: 'Sitka Heading', Georgia, Cambria, Calibri;
+        }
+
+        p {
+            font-size: 2.2rem;
+            font-family: 'Sitka Text', Georgia, Cambria, Calibri;
+        }
+
+        .mntl-sc-block-heading__text {
+            font-size: 3.6rem;
+            line-height: 1.25;
+            letter-spacing: -.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Multicolumn containing all of the result -->
+    <div id="contentContainer" class="contentBody u-max-full-width" role="main">
+        <!-- Main header containing title, dominant image and meta data -->
+        <div class="header_container" id="__reading__mode__header__container">
+            <div id="header_content_id" class="header_content">
+                <h1 class="__reading__mode__extracted__title c008" id="mainContentTitle">Job Interview Questions and
+                    Answers</h1>
+                <h4 class="__reading__mode__extracted__subtitle c007" id="subtitle"></h4>
+                <div class="__reading__mode__bylineentries c007">
+                    <div class="__reading__mode__extracted__bylineentry c007" id="author"></div>
+                    <div class="__reading__mode__extracted__bylineentry c007" id="metaData"> <a id="source"></a> <span
+                            id="metaDivider" class="c007">|</span> <span class="__reading__mode__extracted__date"
+                            id="publishdate"></span> </div>
+                </div>
+            </div>
+        </div>
+        <div class="__reading__mode__mainbody" id="__reading__mode__mainbody__id">
+            <div class="__reading__mode__extracted__article__body" id="mainContainer">
+                <div>
+                    <div class="comp structured-content expert-content mntl-sc-page mntl-block" id="mntl-sc-page_1-0">
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-1">
+                            Do you have a job interview coming up? Are you prepared? The best way to get ready for an
+                            interview is to take the time to review the most common interview questions you will most
+                            likely be asked, along with examples of the best answers. Knowing what you're&nbsp;<a
+                                rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/what-to-say-in-a-job-interview-4158527">going to
+                                say</a>&nbsp;can eliminate a lot of&nbsp;<a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/how-to-avoid-job-interview-stress-2061302">interview
+                                stress</a>.
+                        </p>
+
+                        <a href="https://www.thebalancecareers.com/" id="prepare-for-the-interview"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-3"> <span class="mntl-sc-block-heading__text"> Prepare for the
+                                Interview </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-5">
+                            You don't need to memorize an answer, but do take the time to consider how you'll respond.
+                            The more you prepare, the more confident you'll feel during a job interview.&nbsp;
+                        </p>
+
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-8">
+                            When you're not sure what to expect during an interview, also
+                            take&nbsp;time&nbsp;to&nbsp;review this refresher on&nbsp;<a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/what-to-expect-during-a-job-interview-2063897">how
+                                job interviews work</a>, and these&nbsp;tips on&nbsp;<a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/how-to-prepare-for-a-job-interview-2061361">how
+                                to prepare to ace your job interview</a>.
+                        </p>
+
+                        <a href="https://www.thebalancecareers.com/" id="job-interview-questions-and-answers"
+                            class="heading-toc"></a>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-12">
+                            Here's a list of common job interview questions, with examples of the best answers about
+                            you, your work history and experience, the job, your goals, the new job, salary, and what
+                            you have to offer the employer.
+                        </p>
+
+                        <a href="https://www.thebalancecareers.com/" id="questions-about-you" class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-14"> <span class="mntl-sc-block-heading__text"> Questions About You
+                            </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-16">
+                            Interviewers will ask questions about you to gain insight into your personality and to
+                            determine whether you're a fit for both the job and the company. These are <a
+                                rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/open-ended-interview-questions-and-answers-2061635">open-ended
+                                questions</a> which will give you the opportunity to show the employer that you're
+                            well-qualified for the position.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="questions-about-leaving-your-job"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-21"> <span class="mntl-sc-block-heading__text"> Questions About
+                                Leaving Your Job </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-23">
+                            Employers almost always ask about why you left, or are leaving, your job. Be prepared with
+                            an explanation for why you're moving on. Do make sure the reasons you give match what past
+                            <a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/what-can-employers-say-about-former-employees-2059608">employers
+                                will say about you</a> if they are contacted for a reference.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="why-you-should-be-hired"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-28"> <span class="mntl-sc-block-heading__text"> Why You Should Be
+                                Hired </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-30">
+                            Why should you be hired over the other applicants? What makes you the best candidate for the
+                            job? Here's when you'll have the opportunity to make a case for getting a job offer, and the
+                            chance to <a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/how-to-sell-yourself-during-a-job-interview-4153288">sell
+                                yourself to the interviewer</a>.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="questions-about-salary"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-35"> <span class="mntl-sc-block-heading__text"> Questions About Salary
+                            </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-37">
+                            Some of the hardest questions to answer during a job interview are about compensation.
+                            Here's what you will be asked and examples of the best answers. Questions about salary can
+                            be tricky to answer, and, in some locations, <a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/can-employers-find-out-how-much-you-made-at-your-last-job-2063396">employers
+                                aren't allowed to ask about your salary history.</a>
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="qualifications-questions"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-42"> <span class="mntl-sc-block-heading__text"> Qualifications
+                                Questions </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-44">
+                            The most important thing for interviewers to determine is whether you're qualified for the
+                            job. Here's what they will ask to find out. When responding, be specific.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="questions-about-your-work-history"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-49"> <span class="mntl-sc-block-heading__text"> Questions About Your
+                                Work History </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-51">
+                            Is your work history stable, has it prepared you for the job you're interviewing for, and do
+                            you have any gaps in your employment history that the company should be concerned about? If
+                            not, prepare to answer questions about what you were doing when you weren't in the
+                            workforce.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="job-performance-questions"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-56"> <span class="mntl-sc-block-heading__text"> Job Performance
+                                Questions </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-58">
+                            How you performed in previous roles can indicate how you will perform in the job for which
+                            you're applying. Be prepared to answer questions about what you did well - and what you
+                            didn't.
+                        </p>
+
+                        <div class="comp mntl-sc-block money-sc-block-callout mntl-block" id="mntl-sc-block_1-0-60">
+                            <div class="comp theme-experttipimportant mntl-sc-block mntl-sc-block-callout mntl-block"
+                                id="mntl-sc-block_1-0-61">
+                                <div class="comp mntl-sc-block-callout-body mntl-text-block"
+                                    id="mntl-sc-block-callout-body_1-0">
+                                    <p>Be careful about how you to respond to negative questions. You can&nbsp;frame
+                                        your responses in a positive manner, even when discussing a challenging
+                                        situation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-63">
+                            As with questions about qualifications, be sure to relate your performance to the employer's
+                            requirements.
+                        </p>
+
+
+
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-68"> <a class="mntl-sc-block-heading__link"
+                                href="https://www.thebalancecareers.com/how-to-answer-interview-questions-about-employment-gaps-2061138">
+                            </a> </h2>
+                        <a href="https://www.thebalancecareers.com/" id="management-and-teamwork-questions"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-69"> <span class="mntl-sc-block-heading__text"> Management and
+                                Teamwork Questions </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-71">
+                            Are you a team player? Do you work well with others? Do you prefer to work in a solitary
+                            environment or as part of a team? Your work style, and how you get along with others,
+                            including co-workers, managers, and customers or clients is important to all employers. Here
+                            are some of the questions employers ask about getting along at work.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="the-new-job-and-the-company"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-76"> <span class="mntl-sc-block-heading__text"> The New Job and the
+                                Company </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-78">
+                            What do you know about the company, why do you want the job, and what would you do if you
+                            were to be hired, are just some of the questions you'll be asked about the position and
+                            employer. Take the time to <a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/tips-for-researching-companies-before-job-interviews-2061319">research
+                                the employer</a> prior to the interview, so that you can ask informed questions about
+                            the job and company.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="questions-about-the-future"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-83"> <span class="mntl-sc-block-heading__text"> Questions About The
+                                Future </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-85">
+                            Are you going to stick around if you're hired is something most employers want to know. All
+                            these questions will gauge your interest in making a commitment.
+                        </p>
+
+
+
+                        <a href="https://www.thebalancecareers.com/" id="more-interview-questions"
+                            class="heading-toc"></a>
+                        <h2 class="comp mntl-sc-block money-sc-block-heading mntl-sc-block-heading"
+                            id="mntl-sc-block_1-0-90"> <span class="mntl-sc-block-heading__text"> More Interview
+                                Questions </span> </h2>
+                        <p class="comp text-passage mntl-sc-block mntl-sc-block-html" id="mntl-sc-block_1-0-92">
+                            These are the&nbsp;<a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/top-interview-questions-and-best-answers-2061225">top
+                                ten most commonly asked interview questions</a>, with examples of the best answers. Also
+                            review&nbsp;<a rel="noopener noreferrer"
+                                href="https://www.thebalancecareers.com/tips-for-answering-job-specific-interview-questions-2061451">job-specific</a>&nbsp;interview
+                            questions for many different positions to get ideas for framing your own interview
+                            responses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
