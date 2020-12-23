@@ -26,7 +26,7 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] Add App Icon.
   - [x] Make Basic Build 2.
   - [x] Add the other pages.
-  - [ ] Add cordova connection plugin.
+  - [x] Add cordova connection plugin.
   - [ ] Add links to other Pages.
   - [ ] Delete Old Work-Link Server.
   - [ ] Add Functionality of Old WL Server.
