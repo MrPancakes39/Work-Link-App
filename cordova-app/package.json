@@ -1,0 +1,28 @@
+{
+    "name": "com.salmansproductions.worklink",
+    "displayName": "Work-Link",
+    "version": "1.0.0",
+    "description": "Work-link is an app designed against a vital problem in lebanon which is unemployement by which it links individuals with others to find a suitable job or post a job opportunity.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Salman Hasan",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "cordova-android": "^9.0.0",
+        "cordova-plugin-whitelist": "^1.3.4"
+    },
+    "dependencies": {},
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
