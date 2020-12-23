@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <title>Splashscreen</title>
+    <meta name="author" content="Salman Hasan">
+    <meta name="description" content="Splashscreen Page">
+
+    <!-- FONTS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/skeleton.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        // Wait for device API libraries to load
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        // device APIs are available
+        function onDeviceReady() {
+            document.querySelector("#apiLoaded").textContent = "APIs are now available";
+        }
+    </script>
+</head>
+
+<body onload="onLoad()">
+    <main class="center-middle u-full-width">
+        <div class="center" style="width: 70%; height: 30%;">
+            <img class="u-max-full-width" src="assets/logo.svg" alt="Work-Link Logo">
+        </div>
+        <h3 class="wl-text" style="text-align: center;">In a blink, find your perfect Work-Link!</h3>
+        <p id="apiLoaded"></p>
+    </main>
+</body>
+
+</html>

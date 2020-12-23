@@ -22,7 +22,7 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] Cover Letter Page.
 - [ ] Cordova App:
   - [x] Make Basic Build.
-  - [ ] Add Splashscreen Page.
+  - [x] Add Splashscreen Page.
   - [x] Add App Icon.
   - [ ] Make Basic Build 2.
   - [ ] Add the other pages.
