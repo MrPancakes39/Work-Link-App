@@ -18,32 +18,21 @@
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
 
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- JS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" charset="utf-8">
-        // Wait for device API libraries to load
-        function onLoad() {
-            document.addEventListener("deviceready", onDeviceReady, false);
-        }
-
-        // device APIs are available
-        function onDeviceReady() {
-            document.querySelector("#apiLoaded").textContent = "APIs are now available";
-            alert("APIs are now available");
-        }
-    </script>
+    <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
 </head>
 
 <body onload="onLoad()">
     <main class="center-middle u-full-width">
         <div class="center" style="width: 70%; height: 30%;">
-            <img class="u-max-full-width" src="assets/logo.svg" alt="Work-Link Logo">
+            <img class="u-max-full-width" src="img/logo.svg" alt="Work-Link Logo">
         </div>
         <h3 class="wl-text" style="text-align: center;">In a blink, find your perfect Work-Link!</h3>
         <p id="apiLoaded"></p>
