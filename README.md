@@ -24,7 +24,7 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] Make Basic Build.
   - [x] Add Splashscreen Page.
   - [x] Add App Icon.
-  - [ ] Make Basic Build 2.
+  - [x] Make Basic Build 2.
   - [x] Add the other pages.
   - [ ] Add cordova connection plugin.
   - [ ] Add links to other Pages.
