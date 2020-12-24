@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
     <title>Interview Tips</title>
     <meta name="author" content="Salman Hasan">
     <meta name="description" content="Interview Tips Page">
@@ -1139,9 +1141,22 @@
             letter-spacing: -.1rem;
         }
     </style>
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        function onDeviceReady() {
+            document.addEventListener("backbutton", () => window.history.back(), false);
+        }
+    </script>
 </head>
 
-<body>
+<body onload="onLoad()">
     <!-- Multicolumn containing all of the result -->
     <div id="contentContainer" class="contentBody u-max-full-width" role="main">
         <!-- Main header containing title, dominant image and meta data -->

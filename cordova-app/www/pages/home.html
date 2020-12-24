@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     <title>Home</title>
     <meta name="author" content="Salman Hasan">
@@ -18,6 +20,27 @@
     <link rel="stylesheet" href="../css/skeleton.css">
 
     <link rel="stylesheet" href="../css/main.css">
+
+    <!-- JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script>
+        function btnClicked(num) {
+            switch (num) {
+                case 1:
+                    break;
+                case 2:
+                    window.location.href = "interview-tips.html";
+                    break;
+                case 3:
+                    window.location.href = "cv-tutorials.html";
+                    break;
+                case 4:
+                    window.location.href = "cover-letter.html";
+                    break;
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -29,11 +52,12 @@
     </header>
     <main class="center-middle u-full-width">
         <div class="center" id="v-align">
-            <button class="u-full-width wl-button" type="button">Find/Add a job</button>
-            <button class="u-full-width wl-button" type="button">Interview tips</button>
-            <button class="u-full-width wl-button" type="button">CV tutorials</button>
-            <button class="u-full-width wl-button" type="button">Cover letter tutorials</button>
-            <button class="u-full-width wl-button" type="button" style="width: 58%;">About us</button>
+            <button class="u-full-width wl-button" type="button" onclick="btnClicked(1)">Find/Add a job</button>
+            <button class="u-full-width wl-button" type="button" onclick="btnClicked(2)">Interview tips</button>
+            <button class="u-full-width wl-button" type="button" onclick="btnClicked(3)">CV tutorials</button>
+            <button class="u-full-width wl-button" type="button" onclick="btnClicked(4)">Cover letter tutorials</button>
+            <button class="u-full-width wl-button" type="button" onclick="btnClicked(5)" style="width: 58%;">About
+                us</button>
         </div>
     </main>
 </body>
