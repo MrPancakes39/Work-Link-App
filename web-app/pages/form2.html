@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Form 2</title>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/skeleton.css">
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Info About The Job:</h1>
+    </header>
+    <main>
+        <form id="form">
+            <label for="admin">Administrator Name:<span class="required">*</span></label>
+            <input class="u-full-width" type="text" name="admin" required>
+            <label for="organization">Organization Name:<span class="required">*</span></label>
+            <input class="u-full-width" type="text" name="organization" required>
+            <label for="work_address">Work Address:<span class="required">*</span></label>
+            <input class="u-full-width" type="text" name="work_address" required>
+            <label for="work_type">Type of Work:<span class="required">*</span></label>
+            <input class="u-full-width" type="text" name="work_type" required>
+            <label for="work_email">Work Email:<span class="required">*</span></label>
+            <input class="u-full-width" type="email" name="work_email" required>
+            <label for="owner_number">Owner's Number:</label>
+            <input class="u-full-width" type="tel" name="owner_number">
+            <label for="jobInfo">More about the Job:</label>
+            <textarea class="u-full-width" type="text" name="jobInfo" form="form"></textarea>
+            <button class="u-full-width button-custom" type="button">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

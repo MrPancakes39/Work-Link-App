@@ -31,7 +31,9 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] Change Page Depending on Connection Type.
   - [x] Make Basic Build 4.
   - [x] Add links to other Pages.
-  - [ ] Delete Old Work-Link Server.
-  - [ ] Add Functionality of Old WL Server.
+  - [x] ~~Delete Old Work-Link Server.~~
+  - [x] Add Functionality of Old WL Server.
+  - [x] Add Notification Plugin.
   - [ ] Finalize the app.
   - [ ] Make Final Build.
+  - [ ] Sign The App.

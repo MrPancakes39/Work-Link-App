@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Form 1</title>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/form.css">
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        function onDeviceReady() {
+            document.addEventListener("backbutton", () => window.history.back(), false);
+        }
+    </script>
+</head>
+
+<body onload="onLoad()">
+    <header>
+        <h1 class="title">Please Answer The Questions Below:</h1>
+    </header>
+    <main>
+        <form id="form">
+            <label for="name">Full Name:<span class="required">*</span></label>
+            <input class="u-full-width" type="text" name="name" required>
+            <label for="age">Age:<span class="required">*</span></label>
+            <input class="u-full-width" type="number" name="age" required>
+            <label for="bday">Date of Birth:<span class="required">*</span></label>
+            <input class="u-full-width" type="date" name="bday" required>
+            <label for="email">Email:<span class="required">*</span></label>
+            <input class="u-full-width" type="email" name="email" required>
+            <label for="number">Phone Number:<span class="required">*</span></label>
+            <input class="u-full-width" type="tel" name="number" required>
+            <label for="address">Address:<span class="required">*</span></label>
+            <input class="u-full-width" type="text" name="address" required>
+            <label for="photo">Photo:<span class="required">*</span></label>
+            <input class="u-full-width" type="file" name="photo" required>
+            <label for="cv">Got a CV? Attach it:</label>
+            <input class="u-full-width" type="file" name="cv">
+            <label for="addInfo">More about you:</label>
+            <textarea class="u-full-width" type="text" name="addInfo" form="form"></textarea>
+            <button class="u-full-width button-custom" type="button">Submit</button>
+        </form>
+    </main>
+    <script>
+        document.querySelector("#form button").addEventListener("click", () => {
+            location.href = "table.html";
+        });
+    </script>
+</body>
+
+</html>

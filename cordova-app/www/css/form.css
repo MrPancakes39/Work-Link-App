@@ -1,0 +1,72 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(-180deg, rgb(255, 255, 255), rgb(45, 96, 170));
+    background: linear-gradient(-180deg, rgb(255, 255, 255), rgb(45, 96, 170));
+}
+
+.title {
+    text-align: center;
+}
+
+.center {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.button-custom {
+    color: #D97B3D;
+    background-color: #354E66;
+    border-color: #354E66;
+}
+
+.button-custom:hover,
+.button-custom:focus {
+    color: #D97B3D;
+    background-color: #273440;
+    border-color: #273440;
+}
+
+.required {
+    color: red;
+    font-size: 2.5rem;
+}
+
+input[type="date"] {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+input[type="date"]:focus {
+    border: 1px solid #33C3F0;
+    outline: 0;
+}
+
+#form textarea {
+    resize: none;
+}
+
+#logo {
+    width: 60%;
+}
+
+#logo svg {
+    width: 100%;
+    margin-bottom: 4rem;
+}
