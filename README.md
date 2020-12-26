@@ -36,4 +36,4 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] Add Notification Plugin.
   - [x] Finalize the app.
   - [x] Make Final Build.
-  - [ ] Sign The App.
+  - [x] Sign The App.

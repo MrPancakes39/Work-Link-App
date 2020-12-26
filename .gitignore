@@ -1,3 +1,5 @@
 cordova-app/platforms/
 cordova-app/plugins/
 cordova-app/node_modules/
+cordova-app/file.keystore  
+cordova-app/keygen_release-build_cmd.txt  
