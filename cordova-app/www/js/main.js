@@ -5,6 +5,7 @@ function onLoad() {
 
 // device APIs are available
 function onDeviceReady() {
+    // cordova.plugins.notification.local.requestPermission();
     setTimeout(() => {
         if (navigator.connection.type == Connection.NONE) {
             window.location.href = "pages/no_connection.html";

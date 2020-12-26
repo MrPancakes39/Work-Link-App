@@ -34,6 +34,6 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] ~~Delete Old Work-Link Server.~~
   - [x] Add Functionality of Old WL Server.
   - [x] Add Notification Plugin.
-  - [ ] Finalize the app.
-  - [ ] Make Final Build.
+  - [x] Finalize the app.
+  - [x] Make Final Build.
   - [ ] Sign The App.
