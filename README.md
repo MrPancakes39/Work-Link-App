@@ -20,7 +20,7 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] Interview Tips Page.
   - [x] CV Tutorials Page.
   - [x] Cover Letter Page.
-- [ ] Cordova App:
+- [x] Cordova App:
   - [x] Make Basic Build.
   - [x] Add Splashscreen Page.
   - [x] Add App Icon.
@@ -31,8 +31,7 @@ Our Slogan is "In a blink, find your perfect Work-Link!"
   - [x] Change Page Depending on Connection Type.
   - [x] Make Basic Build 4.
   - [x] Add links to other Pages.
-  - [x] ~~Delete Old Work-Link Server.~~
-  - [x] Add Functionality of Old WL Server.
+  - [x] Add Functionality of Old Work-Link Server.
   - [x] Add Notification Plugin.
   - [x] Finalize the app.
   - [x] Make Final Build.
